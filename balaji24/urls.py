@@ -23,3 +23,7 @@ urlpatterns = [
     path('Webpage_forms/',Webpage_forms,name='Webpage_forms'),
     path('AccessRecord_forms/',AccessRecord_forms,name='AccessRecord_forms'),
 ]
+
+admin.site.site_header='DJD'
+admin.site.site_title='django project'
+admin.site.index_title='balajiproject24'
